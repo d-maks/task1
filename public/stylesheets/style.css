@@ -1,0 +1,118 @@
+@namespace html url(http://www.w3.org/1999/xhtml);
+
+#xml {
+  border: 1px solid black;
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  height: 425px;
+  width: 387px;
+}
+
+#errorText {
+  border: 1px solid black;
+  display: block;
+  font-size: large;
+  padding: 5px;
+  overflow: auto;
+  height: 200px;
+  width: 387px;
+}
+
+#warningText {
+  border: 1px solid black;
+  display: block;
+  font-size: large;
+  padding: 5px;
+  overflow: auto;
+  height: 200px;
+  width: 387px;
+}
+
+#mainDiv {
+  border: 1px solid black;
+  padding: 5px;
+  overflow: auto;
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  margin-left: -4em;
+}
+
+input {
+  display: inline;
+  padding: 2px;
+}
+
+#status {
+  padding: 0;
+}
+
+#errorStatus {
+  padding: 0;
+}
+
+.bracket {
+  color: blue;
+}
+
+.tag {
+  color: red;
+}
+
+* {
+  display: block;
+  padding-left: 2em;
+}
+
+#xml a {
+  display: block;
+  text-decoration: none;
+}
+
+#xml span {
+  display: inline;
+  padding: 0;
+  text-decoration: none;
+}
+
+#mainDiv a {
+  padding: 0;
+}
+
+pre {
+  margin-left: -2em;
+  margin-top: 0;
+}
+
+*[html|hidden], span.block[html|hidden] {
+  display: none;
+}
+
+.expand {
+  display: block;
+  position: relative;
+}
+
+.collapse {
+  display: block;
+  position: relative;
+}
+
+.collapse:before {
+  content: '-';
+  color: red;
+  position: absolute;
+  left: -1em;
+}
+
+.expand:before {
+  content: '+';
+  color: red;
+  position: absolute;
+  left: -1em;
+}
+
+.root{
+  margin-left: 20px;
+}
